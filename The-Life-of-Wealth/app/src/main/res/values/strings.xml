@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Project 2</string>
+    <string name="Welcome_Message">Welcome to the life of wealth \n Press to continue</string>
+    <string name="ShownMessage">Please enter your personal information</string>
+    <string name="gender_male_female">Gender (Male/Female)</string>
+    <string name="height_cm">Height (cm)</string>
+    <string name="age">Age </string>
+    <string name="weight_kg">Weight (kg)</string>
+    <string name="investmentMessage">How much you want to put into the range?</string>
+    <string name="goalMessage">How much you want to earn?</string>
+    <string name="oneWeek">ONE WEEK</string>
+    <string name="oneMonth">ONE MONTH</string>
+    <string name="oneYear">ONE YEAR</string>
+    <string name="optionMessage">PLEASE SELECT A RANGE</string>
+</resources>

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".monthlyActivity"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/calories_consume"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="The calories you should take is 1400 cal per day"
+        android:textSize="100px"
+        android:textColor="#F44336">
+    </TextView>
+
+    <TextView
+        android:id="@+id/meal_consume"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="The Money you should have for meals is around 320 dollars"
+        android:textSize="20dp">
+    </TextView>
+
+    <TextView
+        android:id="@+id/menu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Suggestion Menu(Around 11 dollars a day):Breakfast: Bread and milk\nLunch: Cheese Salad\nDinner: Fast noodles"
+        android:textSize="20dp">
+    </TextView>
+
+    <TextView
+        android:id="@+id/extra"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="You will have 100 dollars per week to have a good meal during weekend, try to make yourself satisfied"
+        android:textSize="20dp">
+    </TextView>
+
+    <TextView
+        android:id="@+id/utilize"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Money for Utilize:150 dollars"
+        android:textSize="20dp">
+    </TextView>
+
+    <TextView
+        android:id="@+id/money_left_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="The money you still have after plan:"
+        android:textSize="20dp">
+    </TextView>
+
+    <TextView
+        android:id="@+id/money_left_number"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="200px"
+        android:text="500 dollars">
+    </TextView>
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>

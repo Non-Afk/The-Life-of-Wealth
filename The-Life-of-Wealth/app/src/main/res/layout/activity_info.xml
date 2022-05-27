@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".infoActivity"
+    android:orientation="vertical"
+    android:background="@color/white">
+
+    <TextView
+        android:id="@+id/shown_message"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:background="#00BCD4"
+        android:gravity="center"
+        android:text="@string/ShownMessage"
+        android:textColor="@color/white"
+        android:textSize="30sp"/>
+
+
+
+    <EditText
+        android:id="@+id/gender"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/gender_male_female"
+        android:inputType="text"
+        android:textSize="20sp"
+        android:importantForAutofill="no"
+        android:textColor="@color/gray"/>
+
+    <EditText
+        android:id="@+id/height"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/height_cm"
+        android:inputType="number"
+        android:textSize="20sp"
+        android:importantForAutofill="no"
+        android:textColor="@color/gray"/>
+
+    <EditText
+        android:id="@+id/weight"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/weight_kg"
+        android:inputType="number"
+        android:textSize="20sp"
+        android:importantForAutofill="no"
+        android:textColor="@color/gray"/>
+
+
+    <EditText
+        android:id="@+id/age"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/age"
+        android:inputType="number"
+        android:textSize="20sp"
+        android:importantForAutofill="no"
+        android:textColor="@color/gray"/>
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/investmentNumber"
+        android:hint="@string/investmentMessage"
+        android:inputType="number"
+        android:textSize="20sp"
+        android:importantForAutofill="no"
+        android:textColor="@color/gray"/>
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/goalNumber"
+        android:hint="How much you want to save"
+        android:inputType="number"
+        android:textSize="20sp"
+        android:importantForAutofill="no"
+        android:textColor="@color/gray"/>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/optionMessage"
+        android:text="@string/optionMessage"
+        android:gravity="center"
+        android:background="#00BCD4"
+        android:textColor="@color/white"
+        android:textSize="30sp"/>
+
+
+    <Button
+        android:id="@+id/week_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/oneWeek"
+        android:textColor="@color/gray"/>
+
+
+    <Button
+        android:id="@+id/month_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/oneMonth"
+        android:textColor="@color/gray"/>
+
+
+    <Button
+        android:id="@+id/year_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/oneYear"
+        android:textColor="@color/gray"/>
+
+
+</LinearLayout>
